@@ -67,7 +67,7 @@ It’s not just a board. It’s a vibe.
 
 | Image | Description |
 |-------|-------------|
-| <img width="1500" height="532" alt="image" src="https://github.com/user-attachments/assets/5c15c727-9c5e-4294-8927-d8e72b9ba3e1" /> | Clean schematic showing the rows, cols, and encoder logic |
+| <img width="1500" height="532" alt="image" src="https://github.com/user-attachments/assets/5c15c727-9c5e-4294-8927-d8e72b9ba3e1" /> | Clean schematic showing the rows, cols |
 
 | Image | Description |
 |-------|-------------|
