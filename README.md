@@ -5,10 +5,6 @@ a no-nonsense, smooth layout keyboard that still slaps way harder than any off-t
 it’s clean, sleek, and custom from the ground up  
 basically a full-send from idea to PCB to flex-worthy typing experience
 
-Designed by Chandan for the Highway YSWS project, SwiftBoard is all about workflow flow  
-no distractions, no weird gimmicks  
-just pure, raw, programmable keyboard power  
-
 ---
 
 ## how it started
