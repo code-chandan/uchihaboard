@@ -8,7 +8,6 @@ basically a full-send from idea to PCB to flex-worthy typing experience
 Designed by Chandan for the Highway YSWS project, SwiftBoard is all about workflow flow  
 no distractions, no weird gimmicks  
 just pure, raw, programmable keyboard power  
-if MeowBoard was the chaotic twin, SwiftBoard is the one who gets stuff done
 
 ---
 
@@ -25,12 +24,12 @@ And yeah, it was built from scratch just because the default wasn’t good enoug
 
 ---
 
-## what’s actually on this thing
+## why i think its dope
 
 SwiftBoard runs an MX-compatible, hot-swappable layout with full-row support  
-No splits, no gaps — just a solid slab of productivity  
-Supports a Pro Micro or Elite-C for easy firmware flashing  
-Includes rotary encoder support and even has per-key backlight footprints if you’re into that  
+No splits, no gaps just a solid slab of productivity  
+Supports a rp 2040 for easy firmware flashing  
+Includes rotary encoder support
 The matrix is clean, rows and columns are balanced and optimized  
 You could run QMK or VIA on this thing in under 5 minutes  
 And the case? 3D printable, tight tolerances, and zero rattle  
@@ -42,36 +41,37 @@ It’s not just a board. It’s a vibe.
 
 | Component            | Description                              | Qty | Unit Price (USD) | Total Price (USD) |
 |----------------------|------------------------------------------|-----|------------------|-------------------|
-| Pro Micro            | Main microcontroller (ATmega32u4)        | 1   | 8.00             | 8.00              |
-| MX Switches          | Mechanical switches                      | 45  | 0.25             | 11.25             |
-| Keycaps              | Set of 45 keycaps                        | 1   | 14.00            | 14.00             |
+| rp 2040              | USB-C microcontroller                    | 1   | 8                | 8                 |
+| MX Switches          | Mechanical switches                      | 45  | 0.35             | 15.75             |
+| Keycaps              | High-quality set for 45 keys             | 1   | 20.00            | 20.00             |
 | Diodes               | 1N4148 for switch matrix                 | 45  | 0.03             | 1.35              |
-| Resistors            | Pullups and encoder use                 | 10  | 0.02             | 0.20              |
-| Rotary Encoder       | Optional rotary encoder (vertical)       | 1   | 2.50             | 2.50              |
-| PCB                  | Custom PCB for SwiftBoard                | 1   | 18.00            | 18.00             |
-| Acrylic Case         | Laser-cut top and bottom                 | 1   | 15.00            | 15.00             |
-| Screws & Standoffs   | Hardware for mounting                    | 1   | 2.00             | 2.00              |
-| Soldering Materials  | Solder, wire, flux, braid                | 1   | 5.00             | 5.00              |
-| Miscellaneous        | Rubber feet, foam, packaging             | 1   | 3.70             | 3.70              |
+| Resistors            | Pullups and encoder use                 | 10  | 0.05              | 0.50              |
+| Rotary Encoder       | Vertical encoder with detent and push    | 1   | 3.00             | 3.00              |
+| OLED Display         | Optional 128x32 screen (fun extra)       | 1   | 5.00             | 5.00              |
+| PCB                  | Custom PCB (manufactured)                | 1   | 18.00            | 30.00             |
+| Acrylic Case         | Laser-cut top and bottom plates          | 1   | 15.00            | 15.00             |
+| Screws & Standoffs   | M3 hardware kit                          | 1   | 2.00             | 2.00              |
+| Soldering Materials  | Solder, flux, braid, wire                | 1   | 3.00             | 3.00              |
+| Miscellaneous        | Rubber feet, foam, labels, packaging     | 1   | 2.40             | 2.40              |
 
-**Total Estimated Cost:** ~$80.00  
-Plenty of room left for mods if you wanna take it further
+**Total Estimated Cost:** ~$106.00
+
 
 ---
 
-## pics or it didn’t happen
+## pics 
 
 | Image | Description |
 |-------|-------------|
-| ![pcb](https://github.com/user-attachments/assets/placeholder) | Full PCB view with matrix routing and Pro Micro headers |
+| <img width="1440" height="739" alt="image" src="https://github.com/user-attachments/assets/7a120fe3-3c2f-42de-a406-30c696633d6d" />  | Full PCB view with matrix routing and Pro Micro headers |
 
 | Image | Description |
 |-------|-------------|
-| ![schematic](https://github.com/user-attachments/assets/placeholder) | Clean schematic showing the rows, cols, and encoder logic |
+| <img width="1500" height="532" alt="image" src="https://github.com/user-attachments/assets/5c15c727-9c5e-4294-8927-d8e72b9ba3e1" /> | Clean schematic showing the rows, cols, and encoder logic |
 
 | Image | Description |
 |-------|-------------|
-| ![3dmodel](https://github.com/user-attachments/assets/placeholder) | 3D view of the board in Fusion with switches and case |
+|  | 3D view of the board in Fusion with switches and case |
 
 ---
 
@@ -80,7 +80,3 @@ Plenty of room left for mods if you wanna take it further
 MIT License  
 You can remix, fork, sell, mod, whatever  
 Just don’t lock it down or keep it to yourself  
-Keyboard stuff is meant to be shared  
-Tag @chandan or Highway YSWS if you show it off  
-Keep the energy clean and the build cleaner
-
