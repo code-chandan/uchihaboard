@@ -1,61 +1,86 @@
-# Swift Board
+# SwiftBoard
 
-Swift Board is a custom split mechanical keyboard, cooked up by Chandan as a part of the Hack Club Highways fellowship and made specifically for YSWS. It’s not just a keyboard — it’s a full-on hardware flex, with a clean, functional layout, meant for those who like to build stuff from scratch and care about ergonomics, speed, and looking cool while typing. It’s inspired by open-source boards like Lily58 and Corne, but this one has its own soul and story. From hand-routing traces at 2AM to test fitting switches in a 3D-printed case that still smelled like PLA fumes, Swift Board has been a whole journey.
+This is SwiftBoard  
+a no-nonsense, smooth layout keyboard that still slaps way harder than any off-the-shelf stuff  
+it’s clean, sleek, and custom from the ground up  
+basically a full-send from idea to PCB to flex-worthy typing experience
 
-The layout is a split 3x6 ortholinear grid with thumb clusters, aimed at reducing finger travel while still giving you access to everything you need. The board supports Pro Micro or RP2040 controllers and is fully compatible with QMK firmware, which means you can map your keys however you like — want your spacebar on your pinky? Go wild. The top and bottom plates were modeled and prototyped in Fusion 360, and the PCBs were designed in KiCad. The vibe was to keep it light, modular, and beginner-friendly but still slick enough to show off in a setup photo.
-
-One of the highlights of the board is its hot-swappability, so no, you don’t need to commit to a switch forever. You can start off with linears and move on to tactiles or clickies just because your vibe changes midweek. The build process included everything from selecting the right key switches to routing traces for clean signal flow and eventually making the case files available for 3D printing or CNC. Everything is open-source, well-documented, and reproducible if you're down to build your own.
-
-This whole thing was made possible thanks to the support and mentorship from Hack Club Highways and YSWS. Big shoutout to the Slack fam and to everyone who dropped tips in #hardware-help when nothing was working right. It’s wild to think that this went from a sketch on paper to a fully functioning keyboard that clicks and clacks like a dream. Honestly, the final version is kinda fire.
-
-All design files — including the PCB in KiCad format, STEP files for the case, and the firmware folder for QMK — are included in this repo. If you want to build your own Swift Board, clone this project, get your PCBs made at JLCPCB or wherever you prefer, grab a soldering iron, and start building. It's designed to be beginner-friendly but still feels super premium once it’s all assembled.
-
-Below are image placeholders you can replace once you upload actual screenshots of the project.
+Designed by Chandan for the Highway YSWS project, SwiftBoard is all about workflow flow  
+no distractions, no weird gimmicks  
+just pure, raw, programmable keyboard power  
+if MeowBoard was the chaotic twin, SwiftBoard is the one who gets stuff done
 
 ---
 
-## PCB Design
+## how it started
+
+It all started during one of those late-night sessions when the standard keyboards just weren’t vibing right  
+There was too much going on and not enough control  
+So I fired up KiCad and started drafting something that felt *right*  
+Went with a standard layout but tuned the matrix for minimal latency and max precision  
+Kept the routing neat, dropped in hot swap sockets, and gave it a solid frame  
+SwiftBoard became this clean, single-piece board that works anywhere, anytime  
+Not flashy, but definitely a beast under the hood  
+And yeah, it was built from scratch just because the default wasn’t good enough
+
+---
+
+## what’s actually on this thing
+
+SwiftBoard runs an MX-compatible, hot-swappable layout with full-row support  
+No splits, no gaps — just a solid slab of productivity  
+Supports a Pro Micro or Elite-C for easy firmware flashing  
+Includes rotary encoder support and even has per-key backlight footprints if you’re into that  
+The matrix is clean, rows and columns are balanced and optimized  
+You could run QMK or VIA on this thing in under 5 minutes  
+And the case? 3D printable, tight tolerances, and zero rattle  
+It’s not just a board. It’s a vibe.
+
+---
+
+## SwiftBoard Bill of Materials (BOM)
+
+| Component            | Description                              | Qty | Unit Price (USD) | Total Price (USD) |
+|----------------------|------------------------------------------|-----|------------------|-------------------|
+| Pro Micro            | Main microcontroller (ATmega32u4)        | 1   | 8.00             | 8.00              |
+| MX Switches          | Mechanical switches                      | 45  | 0.25             | 11.25             |
+| Keycaps              | Set of 45 keycaps                        | 1   | 14.00            | 14.00             |
+| Diodes               | 1N4148 for switch matrix                 | 45  | 0.03             | 1.35              |
+| Resistors            | Pullups and encoder use                 | 10  | 0.02             | 0.20              |
+| Rotary Encoder       | Optional rotary encoder (vertical)       | 1   | 2.50             | 2.50              |
+| PCB                  | Custom PCB for SwiftBoard                | 1   | 18.00            | 18.00             |
+| Acrylic Case         | Laser-cut top and bottom                 | 1   | 15.00            | 15.00             |
+| Screws & Standoffs   | Hardware for mounting                    | 1   | 2.00             | 2.00              |
+| Soldering Materials  | Solder, wire, flux, braid                | 1   | 5.00             | 5.00              |
+| Miscellaneous        | Rubber feet, foam, packaging             | 1   | 3.70             | 3.70              |
+
+**Total Estimated Cost:** ~$80.00  
+Plenty of room left for mods if you wanna take it further
+
+---
+
+## pics or it didn’t happen
 
 | Image | Description |
 |-------|-------------|
-| ![PCB](https://github.com/user/repo/blob/main/images/pcb.png) | This is the final routed PCB layout made in KiCad. All diodes are hand-placed for symmetry. |
-
----
-
-## Schematic
+| ![pcb](https://github.com/user-attachments/assets/placeholder) | Full PCB view with matrix routing and Pro Micro headers |
 
 | Image | Description |
 |-------|-------------|
-| ![Schematic](https://github.com/user/repo/blob/main/images/schematic.png) | The complete schematic with labeled matrix columns and rows, controller pins, and diode orientations. |
-
----
-
-## 3D Model
+| ![schematic](https://github.com/user-attachments/assets/placeholder) | Clean schematic showing the rows, cols, and encoder logic |
 
 | Image | Description |
 |-------|-------------|
-| ![3D Model](https://github.com/user/repo/blob/main/images/3dmodel.png) | The rendered view of Swift Board with caps and switches, modeled in Fusion 360. |
+| ![3dmodel](https://github.com/user-attachments/assets/placeholder) | 3D view of the board in Fusion with switches and case |
 
 ---
 
-## Firmware
+## license thingy
 
-Swift Board is fully programmable via QMK. You can compile the firmware from source using the QMK CLI or use VIA if you’ve included the VIA JSON. Keymaps are stored in the `firmware` folder. If you’re using a Pro Micro, flash via QMK Toolbox. If you’re on RP2040, drag and drop the `.uf2` file. There’s also support for rotary encoders and RGB if you decide to go extra.
+MIT License  
+You can remix, fork, sell, mod, whatever  
+Just don’t lock it down or keep it to yourself  
+Keyboard stuff is meant to be shared  
+Tag @chandan or Highway YSWS if you show it off  
+Keep the energy clean and the build cleaner
 
----
-
-## Materials & BOM
-
-All parts used to build this board are listed in the `bom.csv` file in this repo. The total cost for the build comes out to around $100 USD, keeping things affordable while still premium. The build includes the PCB, switches, keycaps, controller, diodes, acrylic plates, and screws. Cables are not included in the BOM. Everything else you’ll need is in there — if it’s not, ping me.
-
-
----
-
-## License
-
-This project is open-sourced under the MIT License.  
-Remix it, clone it, build it, break it — just give credit when you do.
-
----
-
-Made with burnt fingers and a lot of Ctrl+Zs
