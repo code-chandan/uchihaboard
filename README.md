@@ -1,80 +1,93 @@
 # SwiftBoard
 
-This is SwiftBoard  
-a no-nonsense, smooth layout keyboard that still slaps way harder than any off-the-shelf stuff  
-it’s clean, sleek, and custom from the ground up  
-basically a full-send from idea to PCB to flex-worthy typing experience
+SwiftBoard is that one keyboard you wish you had ages ago  
+It doesn’t try too hard, doesn’t scream gamer, doesn’t light up your whole desk  
+It’s just smooth, clean, fast, and stupidly fun to use  
+Looks simple but hits way harder than any of those overpriced store-bought keyboards  
+Built from scratch, like actual start-to-finish grind, just because nothing else felt good enough
 
-<img width="1364" height="746" alt="image" src="https://github.com/user-attachments/assets/56bdbf8f-d01a-4591-813f-fd0ab3d2dbb8" />
+![SwiftBoard Render](https://github.com/user-attachments/assets/56bdbf8f-d01a-4591-813f-fd0ab3d2dbb8)
 
 ---
 
 ## how it started
 
-It all started during one of those late-night sessions when the standard keyboards just weren’t vibing right  
-There was too much going on and not enough control  
-So I fired up KiCad and started drafting something that felt *right*  
-Went with a standard layout but tuned the matrix for minimal latency and max precision  
-Kept the routing neat, dropped in hot swap sockets, and gave it a solid frame  
-SwiftBoard became this clean, single-piece board that works anywhere, anytime  
-Not flashy, but definitely a beast under the hood  
-And yeah, it was built from scratch just because the default wasn’t good enough
+It all kicked off during one of those random nights when the vibes were off and my keyboard just wasn’t giving  
+Like I’m trying to get stuff done and the keyboard is out here lagging, flexing extra keys I don’t need, and feeling like a sponge  
+So I closed everything, opened KiCad, and went full keyboard-goblin mode  
+Started sketching out something that felt like mine  
+Didn’t wanna go crazy with layout changes, so I stuck with something normal but fixed literally everything else
+
+Redid the matrix from scratch so it’s way more responsive  
+Kept the routing super clean  
+Threw in hot swap sockets cause who’s got time for desoldering  
+And yeah, gave it a solid case that doesn’t move unless you move it  
+Now it’s this one-piece board that just works wherever  
+At school, at home, in your bag, doesn’t matter  
+Looks chill, performs like a beast  
+And yeah it was a full solo mission because stock keyboards were too mid
 
 ---
 
-## why i think its dope
+## why i think it’s actually sick
 
-SwiftBoard runs an MX-compatible, hot-swappable layout with full-row support  
-No splits, no gaps just a solid slab of productivity  
-Supports a rp 2040 for easy firmware flashing  
-Includes rotary encoder support
-The matrix is clean, rows and columns are balanced and optimized  
-You could run QMK or VIA on this thing in under 5 minutes  
-And the case? 3D printable, tight tolerances, and zero rattle  
-It’s not just a board. It’s a vibe.
+So this board has MX support which basically means it’ll take any switch you throw at it  
+Doesn’t split, doesn’t bend, doesn’t act weird  
+Just a clean rectangle of power  
+The layout is straight up solid, nothing extra, just full-row real estate for max typing flow
 
----
-
-## SwiftBoard Bill of Materials (BOM)
-
-| Component            | Description                              | Qty | Unit Price (USD) | Total Price (USD) |
-|----------------------|------------------------------------------|-----|------------------|-------------------|
-| rp 2040              | USB-C microcontroller                    | 1   | 8                | 8                 |
-| MX Switches          | Mechanical switches                      | 45  | 0.35             | 15.75             |
-| Keycaps              | High-quality set for 45 keys             | 1   | 20.00            | 20.00             |
-| Diodes               | 1N4148 for switch matrix                 | 45  | 0.03             | 1.35              |
-| Resistors            | Pullups and encoder use                 | 10  | 0.05              | 0.50              |
-| Rotary Encoder       | Vertical encoder with detent and push    | 1   | 3.00             | 3.00              |
-| OLED Display         | Optional 128x32 screen (fun extra)       | 1   | 5.00             | 5.00              |
-| PCB                  | Custom PCB (manufactured)                | 1   | 18.00            | 30.00             |
-| Acrylic Case         | Laser-cut top and bottom plates          | 1   | 15.00            | 15.00             |
-| Screws & Standoffs   | M3 hardware kit                          | 1   | 2.00             | 2.00              |
-| Soldering Materials  | Solder, flux, braid, wire                | 1   | 3.00             | 3.00              |
-| Miscellaneous        | Rubber feet, foam, labels, packaging     | 1   | 2.40             | 2.40              |
-
-**Total Estimated Cost:** ~$106.00
-
+It runs on an rp2040 which is literally one of the best things ever  
+Firmware flashing is so easy it’s actually fun  
+You could run QMK or VIA on this thing before your coffee even finishes brewing  
+Rotary encoder support? Yup, added that too cause why not  
+Matrix is tight, rows and columns are super balanced so typing feels like butter  
+And the case? Fully 3D printable, no weird gaps, zero rattle, everything fits perfectly  
+Honestly it’s not even just a keyboard, it’s a whole vibe
 
 ---
 
-## pics 
+## what’s inside (BOM)
 
-| Image | Description |
-|-------|-------------|
-| <img width="1423" height="734" alt="image" src="https://github.com/user-attachments/assets/9d0a7835-aeb7-45c0-8a57-96ef456d149f" /> | Full PCB view with matrix routing  |
+| Component          | Description                            | Qty | Price (USD) | Total |
+|-------------------|----------------------------------------|-----|-------------|-------|
+| rp2040            | handles everything like a champ         | 1   | 8.00        | 8.00  |
+| MX switches        | your clicky friends                     | 45  | 0.35        | 15.75 |
+| Keycaps            | one good set, no mix-match nonsense     | 1   | 20.00       | 20.00 |
+| Diodes             | 1N4148, classic matrix stuff            | 45  | 0.03        | 1.35  |
+| Resistors          | for pullups and the encoder             | 10  | 0.05        | 0.50  |
+| Rotary encoder     | spin spin click click                   | 1   | 3.00        | 3.00  |
+| OLED screen        | optional but kinda cool                 | 1   | 5.00        | 5.00  |
+| PCB                | the actual custom-made heart of it all  | 1   | 18.00       | 18.00 |
+| Acrylic case       | laser cut and clean                     | 1   | 15.00       | 15.00 |
+| Screws & standoffs | hold it all together                    | 1   | 2.00        | 2.00  |
+| Soldering stuff    | wire, solder, flux, all that jazz       | 1   | 3.00        | 3.00  |
+| Random extras      | foam, rubber feet, labels               | 1   | 2.40        | 2.40  |
 
-| Image | Description |
-|-------|-------------|
-| <img width="1500" height="532" alt="image" src="https://github.com/user-attachments/assets/5c15c727-9c5e-4294-8927-d8e72b9ba3e1" /> | Clean schematic showing the rows, cols |
+**Total cost** is somewhere around **$106.00**  
+Not cheap but definitely not ridiculous for a full custom keyboard that doesn’t suck
 
-| Image | Description |
-|-------|-------------|
-| <img width="1364" height="746" alt="image" src="https://github.com/user-attachments/assets/6964913a-be66-46f0-8292-2d4252808d76" /> | 3D view of the board in Fusion with switches and case |
+---
+
+## pics
+
+| Image | What’s going on |
+|-------|-----------------|
+| ![Matrix Routing](https://github.com/user-attachments/assets/9d0a7835-aeb7-45c0-8a57-96ef456d149f) | Matrix routing on full display, clean and deadly |
+| ![Schematic](https://github.com/user-attachments/assets/5c15c727-9c5e-4294-8927-d8e72b9ba3e1) | Schematic looking fresh, every row and column laid out like a pro |
+| ![3D View](https://github.com/user-attachments/assets/6964913a-be66-46f0-8292-2d4252808d76) | Full 3D render with switches and case, all ready to go |
 
 ---
 
 ## license thingy
 
 MIT License  
-You can remix, fork, sell, mod, whatever  
-Just don’t lock it down or keep it to yourself  
+You can fork it, remix it, sell it, mod it, show it off at school, whatever  
+Just don’t be that person who locks it up or pretends they made it from scratch  
+Be chill
+
+---
+
+If you want this board, build it  
+If you want to improve it, go wild  
+Just don’t sleep on it  
+SwiftBoard’s real
