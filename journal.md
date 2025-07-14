@@ -3,7 +3,7 @@
 | Builder   | Chandan |
 |-----------|---------|
 | Project   | SwiftBoard |
-| Purpose   | Built as a one-piece full keyboard project under Hack Club Highways |
+| Purpose   | Built as a one-piece full keyboard project |
 | Total Hours | 14 hours |
 
 ---
@@ -13,10 +13,6 @@
 Kicked it off today by finally committing to the idea. My old keyboard was just vibes-only at this point and it didn’t type right anymore. I opened KiCad and just started sketching. First thing I handled was figuring out the layout. Didn’t wanna go ortholinear this time. Just needed something smooth and classic. Made a draft with decent spacing and a full row setup. Took a few stabs at the row and column counts before settling on something that made sense. Got the matrix blocks in, nothing wired yet but it felt like a solid start. There was some tweaking but nothing crazy. Will sleep on it and look again tomorrow.
 
 **Hours spent:** 2
-
-| Image | Description |
-|-------|-------------|
-| *(Insert layout sketch image here)* | Early layout sketch before wiring the matrix |
 
 ---
 
