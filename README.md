@@ -5,6 +5,8 @@ a no-nonsense, smooth layout keyboard that still slaps way harder than any off-t
 it’s clean, sleek, and custom from the ground up  
 basically a full-send from idea to PCB to flex-worthy typing experience
 
+<img width="1364" height="746" alt="image" src="https://github.com/user-attachments/assets/56bdbf8f-d01a-4591-813f-fd0ab3d2dbb8" />
+
 ---
 
 ## how it started
@@ -67,7 +69,7 @@ It’s not just a board. It’s a vibe.
 
 | Image | Description |
 |-------|-------------|
-|  | 3D view of the board in Fusion with switches and case |
+| <img width="1364" height="746" alt="image" src="https://github.com/user-attachments/assets/6964913a-be66-46f0-8292-2d4252808d76" /> | 3D view of the board in Fusion with switches and case |
 
 ---
 
