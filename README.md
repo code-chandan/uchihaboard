@@ -61,7 +61,7 @@ It’s not just a board. It’s a vibe.
 
 | Image | Description |
 |-------|-------------|
-| <img width="1440" height="739" alt="image" src="https://github.com/user-attachments/assets/7a120fe3-3c2f-42de-a406-30c696633d6d" />  | Full PCB view with matrix routing and Pro Micro headers |
+| <img width="1423" height="734" alt="image" src="https://github.com/user-attachments/assets/9d0a7835-aeb7-45c0-8a57-96ef456d149f" /> | Full PCB view with matrix routing  |
 
 | Image | Description |
 |-------|-------------|
