@@ -1,6 +1,6 @@
 | Component          | Description                            | Qty | Price (USD) | Total |
 |-------------------|----------------------------------------|-----|-------------|-------|
-| rp2040            | handles everything like a champ         | 1   | 8.00        | 8.00  |
+| elite-c           | handles everything like a champ         | 1   | 12.00        | 12.00  |
 | MX switches        | your clicky friends                     | 45  | 0.35        | 15.75 |
 | Keycaps            | one good set, no mix-match nonsense     | 1   | 20.00       | 20.00 |
 | Diodes             | 1N4148, classic matrix stuff            | 45  | 0.03        | 1.35  |
