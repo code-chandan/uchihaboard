@@ -39,7 +39,7 @@ Didn’t touch it yesterday but today I went all in. Started the PCB layout. Thr
 
 ## 15 July 2025
 
-More PCB routing today. Spent a good hour just re-routing half the board because I realized one column trace was interfering with the rp 2040 pinout. Fixed that and started placing decoupling caps and the pull-up resistors for the encoder. Took some time to make the board outline smooth and symmetrical. Nothing looks worse than a board with uneven corners. Also added mounting holes finally, which I somehow forgot until now. I think it’s ready for DRC. Almost sent it for review but might look at it again tomorrow.
+More PCB routing today. Spent a good hour just re-routing half the board because I realized one column trace was interfering with the elite-c pinout. Fixed that and started placing decoupling caps and the pull-up resistors for the encoder. Took some time to make the board outline smooth and symmetrical. Nothing looks worse than a board with uneven corners. Also added mounting holes finally, which I somehow forgot until now. I think it’s ready for DRC. Almost sent it for review but might look at it again tomorrow.
 
 **Hours spent:** 2
 
