@@ -52,7 +52,7 @@ Honestly it’s not even just a keyboard, it’s a whole vibe
 
 | Component          | Description                            | Qty | Price (USD) | Total |
 |-------------------|----------------------------------------|-----|-------------|-------|
-| elite-c            | handles everything like a champ         | 1   | 8.00        | 8.00  |
+| elite-c            | handles everything like a champ         | 1   | 12.00        | 12.00  |
 | MX switches        | your clicky friends                     | 45  | 0.35        | 15.75 |
 | Keycaps            | one good set, no mix-match nonsense     | 1   | 20.00       | 20.00 |
 | Diodes             | 1N4148, classic matrix stuff            | 45  | 0.03        | 1.35  |
@@ -65,7 +65,7 @@ Honestly it’s not even just a keyboard, it’s a whole vibe
 | Soldering stuff    | wire, solder, flux, all that jazz       | 1   | 3.00        | 3.00  |
 | Random extras      | foam, rubber feet, labels               | 1   | 2.40        | 2.40  |
 
-**Total cost** is somewhere around **$106.00**  
+**Total cost** is somewhere around **$110.00**  
 Not cheap but definitely not ridiculous for a full custom keyboard that doesn’t suck
 
 ---
@@ -74,7 +74,7 @@ Not cheap but definitely not ridiculous for a full custom keyboard that doesn’
 
 | Image | What’s going on |
 |-------|-----------------|
-| <img width="1374" height="745" alt="Screenshot 2025-07-20 215033" src="https://github.com/user-attachments/assets/1abcbc46-f0ca-4310-b94f-3135ca36aa41" /> | Matrix routing on full display, clean and deadly |
+| <img width="1096" height="582" alt="image" src="https://github.com/user-attachments/assets/26a878fa-8601-47e5-b725-86f7be0bee86" /> | clean and deadly |
 | <img width="1188" height="536" alt="Screenshot 2025-07-20 215403" src="https://github.com/user-attachments/assets/8a164642-978c-486b-88a5-dc2c5a5b3be5" /> | Schematic looking fresh, every row and column laid out like a pro |
 | <img width="1466" height="741" alt="image" src="https://github.com/user-attachments/assets/a3709287-346f-4cd5-85dc-525add4d56da" /> | Full 3D render with switches and case, all ready to go |
 
