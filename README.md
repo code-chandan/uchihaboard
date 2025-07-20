@@ -64,7 +64,7 @@ Honestly it’s not even just a keyboard, it’s a whole vibe
 | Soldering stuff    | wire, solder, flux, all that jazz       | 1   | 3.00        | 3.00  |
 | Random extras      | foam, rubber feet, labels               | 1   | 2.40        | 2.40  |
 
-**Total cost** is somewhere around **$110.00**  
+**Total cost** is somewhere around **$105.00**  
 Not cheap but definitely not ridiculous for a full custom keyboard that doesn’t suck
 
 ---
