@@ -1,6 +1,6 @@
-# SwiftBoard
+# Uchiha Board
 
-SwiftBoard is that one keyboard you wish you had ages ago  
+Uchiha Board is that one keyboard you wish you had ages ago  
 It doesn’t try too hard, doesn’t scream gamer, doesn’t light up your whole desk  
 It’s just smooth, clean, fast, and stupidly fun to use  
 Looks simple but hits way harder than any of those overpriced store-bought keyboards  
@@ -91,4 +91,4 @@ Be chill
 If you want this board, build it  
 If you want to improve it, go wild  
 Just don’t sleep on it  
-SwiftBoard’s real
+Uchiha Board’s real
