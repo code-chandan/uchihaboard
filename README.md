@@ -6,7 +6,8 @@ It’s just smooth, clean, fast, and stupidly fun to use
 Looks simple but hits way harder than any of those overpriced store-bought keyboards  
 Built from scratch, like actual start-to-finish grind, just because nothing else felt good enough
 
-<img width="1255" height="751" alt="image" src="https://github.com/user-attachments/assets/f34dbf57-fc92-4014-977b-a451a1799378" />
+<img width="1466" height="741" alt="image" src="https://github.com/user-attachments/assets/7ed2c6e9-94bf-4e9b-97f3-c324bd18a111" />
+
 
 
 ---
@@ -73,9 +74,9 @@ Not cheap but definitely not ridiculous for a full custom keyboard that doesn’
 
 | Image | What’s going on |
 |-------|-----------------|
-| ![Matrix Routing](https://github.com/user-attachments/assets/9d0a7835-aeb7-45c0-8a57-96ef456d149f) | Matrix routing on full display, clean and deadly |
-| ![Schematic](https://github.com/user-attachments/assets/5c15c727-9c5e-4294-8927-d8e72b9ba3e1) | Schematic looking fresh, every row and column laid out like a pro |
-| <img width="1255" height="751" alt="image" src="https://github.com/user-attachments/assets/b5c261e6-5972-4186-b014-bf70aeee1ae1" /> | Full 3D render with switches and case, all ready to go |
+| <img width="1374" height="745" alt="Screenshot 2025-07-20 215033" src="https://github.com/user-attachments/assets/1abcbc46-f0ca-4310-b94f-3135ca36aa41" /> | Matrix routing on full display, clean and deadly |
+| <img width="1188" height="536" alt="Screenshot 2025-07-20 215403" src="https://github.com/user-attachments/assets/8a164642-978c-486b-88a5-dc2c5a5b3be5" /> | Schematic looking fresh, every row and column laid out like a pro |
+| <img width="1466" height="741" alt="image" src="https://github.com/user-attachments/assets/a3709287-346f-4cd5-85dc-525add4d56da" /> | Full 3D render with switches and case, all ready to go |
 
 ---
 
