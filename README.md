@@ -38,7 +38,7 @@ Doesn’t split, doesn’t bend, doesn’t act weird
 Just a clean rectangle of power  
 The layout is straight up solid, nothing extra, just full-row real estate for max typing flow
 
-It runs on an rp2040 which is literally one of the best things ever  
+It runs on an elite-c which is literally one of the best things ever  
 Firmware flashing is so easy it’s actually fun  
 You could run QMK or VIA on this thing before your coffee even finishes brewing  
 Rotary encoder support? Yup, added that too cause why not  
@@ -52,7 +52,7 @@ Honestly it’s not even just a keyboard, it’s a whole vibe
 
 | Component          | Description                            | Qty | Price (USD) | Total |
 |-------------------|----------------------------------------|-----|-------------|-------|
-| rp2040            | handles everything like a champ         | 1   | 8.00        | 8.00  |
+| elite-c            | handles everything like a champ         | 1   | 8.00        | 8.00  |
 | MX switches        | your clicky friends                     | 45  | 0.35        | 15.75 |
 | Keycaps            | one good set, no mix-match nonsense     | 1   | 20.00       | 20.00 |
 | Diodes             | 1N4148, classic matrix stuff            | 45  | 0.03        | 1.35  |
