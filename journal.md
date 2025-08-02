@@ -8,17 +8,31 @@
 
 ---
 
-## 11 July 2025
+## 11 July 2025 - 10:45 pm to 1 am
 
-Kicked it off today by finally committing to the idea. My old keyboard was just vibes-only at this point and it didn’t type right anymore. I opened KiCad and just started sketching. First thing I handled was figuring out the layout. Didn’t wanna go ortholinear this time. Just needed something smooth and classic. Made a draft with decent spacing and a full row setup. Took a few stabs at the row and column counts before settling on something that made sense. Got the matrix blocks in, nothing wired yet but it felt like a solid start. There was some tweaking but nothing crazy. Will sleep on it and look again tomorrow.
+I got underway tonight by finally acting on the idea. My previous keyboard was barely working half of the keys were squishy, and it just wasn't fun to work with anymore. At about 10:50 PM, I launched KiCad and gazed at the empty board for a few minutes, leaving it there.
+
+By 11:00 PM I started roughing out the layout. I did not want to use an ortholinear design this time around; I already had. I felt in the mood for something more old-fashioned, something that was easier to type on. I tried various key spacing and staggering of rows.
+
+From 11:30 to midnight, I was fiddling with the number of rows and columns. I experimented with a number of different matrix sizes and even thought about adding an extra column for navigation keys, but decided against it. In the end, I ended up with a simple configuration full rows, no weird offsets, good symmetry.
+
+At about 12:15 AM, I set the matrix blocks. There was nothing plugged in yet, but just having them laid out made it seem real. I gave it a brief visual scan and moved some keys, but I kept things simple. 
+
+I finished around 1:00 AM.
 
 **Hours spent:** 2
 
 ---
 
-## 12 July 2025
+## 12 July 2025 - 11:22 am to 1:47 pm
 
-Woke up and hated the matrix from yesterday so I redid most of it. Set up clean row and column pins, made sure there weren’t any weird overlaps or scuffed routes. Took my time getting all the net labels aligned and clean because that stuff always comes back to haunt you later. Started adding diodes into the schematic too. It’s a simple process but when you’re working with 40+ keys it can get tedious. Also added encoder footprints cause I wanna try adding one in this build. Not final yet but it’s getting close. Felt productive.
+I woke up and checked yesterday’s matrix, and I immediately disliked it. Around 11:30 AM, I discarded most of it and started fresh. This time, I concentrated on getting the correct row and column pins in place. I wanted to avoid those annoying overlaps and those one pixel off traces. 
+
+By noon, I was in label chaos. I took my time to ensure each one was aligned, neat, and made sense.
+
+At about 12:30 PM, I began adding the diodes to the schematic. It wasn’t anything special, but doing it for over 40 keys is a lot. My brain started to feel a bit fried, but it needed to be done. During that process, I also added encoder footprints because I wanted to try one in this build. I’m still figuring out exactly where it will go, but the idea is there now. 
+
+I finished at around 1:47 PM.
 
 **Hours spent:** 2
 
@@ -28,18 +42,26 @@ Woke up and hated the matrix from yesterday so I redid most of it. Set up clean 
 
 ---
 
-## 14 July 2025
+## 14 July 2025 - 9:38 pm to 12:12 am
 
-Didn’t touch it yesterday but today I went all in. Started the PCB layout. Threw the switches in, aligned them properly, and made the footprint grid feel even. The encoder placement was a bit of a pain cause I wasn’t sure if I wanted it on the top right or center but figured top right makes more sense for my hand position. Started placing traces. Tried not to cross stuff because I hate via clutter. Got about 70 percent of routing done before stopping. There’s something satisfying about making traces that look neat and flow well.
+I did pcb stuff tonight . First, I placed all the switch footprints and began aligning them. It took some tweaking, but I eventually arranged them in a nice, even grid. It's really satisfying when everything lines up neatly.
 
+The encoder was a bit tricky. I spent a good amount of time around 10:15 PM positioning it between the center and the top right corner while I thought about hand position and comfort. In the end, I chose the top right. It just felt more natural for how I use my thumb.
+
+By 11:00 PM, I was deep into routing. I tried to keep it clean by avoiding messy crossings and minimizing vias. I really dislike when the vias get tangled. I completed about 70% of the matrix before my mind started to feel foggy.
+
+I wrapped up around 12:12 AM. 
 **Hours spent:** 3
-
 
 ---
 
-## 15 July 2025
+## 15 July 2025 6:12 pm to 8:41 pm
 
-More PCB routing today. Spent a good hour just re-routing half the board because I realized one column trace was interfering with the elite-c pinout. Fixed that and started placing decoupling caps and the pull-up resistors for the encoder. Took some time to make the board outline smooth and symmetrical. Nothing looks worse than a board with uneven corners. Also added mounting holes finally, which I somehow forgot until now. I think it’s ready for DRC. Almost sent it for review but might look at it again tomorrow.
+More PCB routing today. I spent a good part of the first hour undoing half of yesterday’s work after I noticed one of the column traces interfered with the Elite C pinout. That was a bit frustrating, but I caught it before fabrication. I fixed the conflict and re routed that section to clean it up.
+
+Around 7:30 PM, I started placing the decoupling caps and pull up resistors for the encoder. I wanted to plan their placement carefully while keeping layout symmetry in mind. After that, I cleaned up the board outline. I took my time to ensure the corners were smooth and everything was centered properly. There is nothing worse than a poorly shaped board, especially after all the effort I've put in.
+
+At 8:20 PM, I realized I hadn’t added the mounting holes. I quickly took care of that; it’s basic stuff but easy to overlook. I wrapped up around 8:41 PM and think it’s ready for DRC now. I almost hit "send for review," but I decided to sleep on it and take one more look tomorrow just to be sure.
 
 **Hours spent:** 2
 
@@ -49,9 +71,11 @@ More PCB routing today. Spent a good hour just re-routing half the board because
 
 ---
 
-## 16 July 2025
+## 16 July 2025 5:21 pm to 7:10 pm
 
-Exported the Gerbers and double-checked everything in the 3D viewer. The board looks clean. Uploaded it to JLC just to see how it’d look in preview and it passed everything which is always a relief. Also started designing the case. Went with a simple sandwich style, just top and bottom acrylic plates. Didn’t want anything too bulky. Measured the standoff heights and adjusted the hole spacing. I’ll probably laser cut the plates later this week. Wrapped up by ordering the PCBs finally. Hope the colors come out right.
+I finally exported the Gerbers today. I double-checked everything in the 3D viewer before moving on. The board looks clean, with no odd gaps or floating pads. Around 5:45 PM, I uploaded the files to JLC just to preview them, and everything passed on the first try. It’s always a nice boost when that happens. 
+
+After that, I switched gears and started designing the case. I kept it simple by choosing a sandwich-style case.
 
 **Hours spent:** 2
 
@@ -61,15 +85,13 @@ Exported the Gerbers and double-checked everything in the 3D viewer. The board l
 
 ---
 
-## 17 July 2025
+## 17 July 2025 3:10 pm to 6:04 pm
 
-Final touches. Wrote the firmware today using QMK. Started with the default layout and mapped everything manually since I’m not doing anything split or layered just yet. Set up encoder input to control volume, cause what else do you even use it for. Tested the config in VIA and it works beautifully. Might play with RGB or macros later but for now it’s solid. Also started prepping the BOM for GitHub. Everything’s ready for the README. It’s weirdly satisfying seeing it all come together after a week of tweaking.
+Final touches today. I sat down around 3:15 PM and started working on the firmware. I used QMK and began with the default layout. I mapped everything by hand since I’m not using splits or layers yet. It looks simple and clean.
+
+I got the encoder working as a volume knob because, honestly, what else would it do? I tested everything in VIA around 4:30 PM, and it worked on the first try, which almost never happens. That felt great.
 
 **Hours spent:** 3
-
-| Image | Description |
-|-------|-------------|
-| *(Insert VIA/QMK config screenshot here)* | QMK firmware and encoder config loaded and tested in VIA |
 
 ---
 
