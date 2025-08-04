@@ -10,7 +10,7 @@
 
 ## 11 July 2025 - 10:45 pm to 1 am
 
-I got underway tonight by finally acting on the idea. My previous keyboard was barely working half of the keys were squishy, and it just wasn't fun to work with anymore. At about 10:50 PM, I launched KiCad and gazed at the empty board for a few minutes, leaving it there.
+I got underway tonight by finally acting on the idea. My previous keyboard was barely working half of the keys were squishy, and it just wasn't fun to work with anymore. At about 10:50 PM, I launched easy eda pro  and gazed at the empty board for a few minutes, leaving it there.
 
 By 11:00 PM I started roughing out the layout. I did not want to use an ortholinear design this time around; I already had. I felt in the mood for something more old-fashioned, something that was easier to type on. I tried various key spacing and staggering of rows.
 
