@@ -4,7 +4,7 @@
 |-----------|---------|
 | Project   | Uchiha Board |
 | Purpose   | Built as a one-piece full keyboard project |
-| Total Hours | 14 hours |
+| Total Hours | 16 hours |
 
 ---
 
@@ -93,5 +93,17 @@ I got the encoder working as a volume knob because, honestly, what else would it
 
 **Hours spent:** 3
 
+
 ---
 
+## 18 July 2025 9:32 pm to 11:29 am
+
+I spent a couple of hours in Fusion working on the case for the main keyboard. I started with the top plate outline from the PCB and stacked the layers to match my initial plan. It’s a classic sandwich style, nothing too complicated.
+
+I adjusted the curve on the front edge a bit to fit the key layout better and make it look less boxy. Getting the standoff positions to align across the layers took a few tries, but they finally lined up. I also added a slight recess so the keycaps don’t sit too high above the top plate.
+| Image | Description |
+|-------|-------------|
+| <img width="1046" height="465" alt="image" src="https://github.com/user-attachments/assets/a7350d7c-09c8-4b77-ac2c-028820afa3e2" /> | 3D render of the final keyboard |
+
+
+**Hours spent:** 2
