@@ -73,7 +73,7 @@ Not cheap but definitely not ridiculous for a full custom keyboard that doesn’
 
 | Image | What’s going on |
 |-------|-----------------|
-| <img width="1096" height="582" alt="image" src="https://github.com/user-attachments/assets/26a878fa-8601-47e5-b725-86f7be0bee86" /> | clean and deadly |
+|  | clean and deadly |
 | <img width="1188" height="536" alt="Screenshot 2025-07-20 215403" src="https://github.com/user-attachments/assets/8a164642-978c-486b-88a5-dc2c5a5b3be5" /> | Schematic looking fresh, every row and column laid out like a pro |
 | <img width="1466" height="741" alt="image" src="https://github.com/user-attachments/assets/a3709287-346f-4cd5-85dc-525add4d56da" /> | Full 3D render with switches and case, all ready to go |
 | <img width="1948" height="972" alt="image" src="https://github.com/user-attachments/assets/bc3e3c10-060a-4128-89ec-9f2d33c9a9cf" /> | side view |
